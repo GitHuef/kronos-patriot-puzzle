@@ -25,11 +25,13 @@ Kronos Antetokounmpo has encrypted a message, and only you can unlock it. Your t
 ## 🛡️ **Learn Something New: RSA Encryption**
 
 ### 🏀 **What’s RSA?**  
-RSA encryption is like a super-secret locker code for computers. It was invented in 1977 by Rivest, Shamir, and Adleman (RSA) and is used to protect information online—like banking, passwords, and messages.
+RSA encryption is the online world’s super-secret locker code. It was invented in 1977 by Rivest, Shamir, and Adleman (RSA) to protect sensitive information like bank details, passwords, and secret messages.
 
 ### ⚙️ **How Does It Work?**
 - RSA uses two special keys: one **locks** the message (encrypts it), and the other **unlocks** it (decrypts it).  
-- The magic lies in **big prime numbers**. Finding the key without knowing the primes is almost impossible—like beating Giannis in a 1-on-1.
+- Encrypting a Message: You lock it with a public key—a magical number shared with the world.
+- Decrypting the Message: You unlock it with a private key—a secret number only you know.
+- The Twist: It’s practically impossible to crack without knowing the prime numbers behind the keys. That’s the magic of math! ( The magic lies in **big prime numbers**. Finding the key without knowing the primes is almost impossible—like beating Giannis in a 1-on-1).
 
 ---
 
@@ -55,10 +57,10 @@ Here is the alphabet you are used to seeing. Imagine that each letter had a numb
 
 **2. Given your Private Key and Modulus Compute Modular Inverse using the Extended Euclidean Algorithm! **
    
-Public key 𝐾 = 45719 
+Public key 𝐾 = 13457 
 Modulus 𝑀 = 65537
 
-GCD(65537,45719)
+GCD(65537,13457)
 
 
 
