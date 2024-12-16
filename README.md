@@ -34,23 +34,17 @@ RSA encryption is the online world’s super-secret locker code. It was invented
 - The Twist: It’s practically impossible to crack without knowing the prime numbers behind the keys. That’s the magic of math! ( The magic lies in **big prime numbers**. Finding the key without knowing the primes is almost impossible—like beating Giannis in a 1-on-1).
 
 ---
-
 ## 🔓 **The Puzzle: Decode the Hidden Letter**
-
-Here’s the scoop:
-- The alphabet has been shifted **17 letters to the right** (e.g., A → S, B → T, etc.).
-- Your encoded letter is: **R**.  
-- To decode it, you’ll need:
-  1. The **GCD** (Greatest Common Divisor) of the key (18) and the alphabet size (26).
-  2. The **linear combination** that finds the modular inverse of the key.
-  3. The modular inverse to compute the original letter.
-
----
-
 ### 🔍 **Steps to Decode the Letter**
 **1. Your Challenge! **
 
-Here is the alphabet you are used to seeing. Imagine that each letter had a number associated with it to determine what place it falls in the alphabet. (e.g. (A = 0, B = 1 , C = 2  D = 3, ..., Z = 25)) Kronos has shifted these letters 17 steps to the right meaning that now A = 17 B = 18, C = 19 and so on. Now Use this to decrypt your letter to the codex:
+Here is the alphabet you are used to seeing. 
+
+Imagine that each letter had a number associated with it to determine what place it falls in the alphabet.
+
+(e.g. (A = 0, B = 1 , C = 2  D = 3, ..., Z = 25)) 
+
+Except 1 thing... Kronos has shifted these letters 17 steps to the right meaning that now A = 17 B = 18, C = 19 and so on. Now Use this knowledge to decrypt the message containing the letter to the codex with the blob of numbers below:
 
 15 5 11 8 2 21 10 10 21 8 10 5 10 24 21 19 5 20 21 14 25 9 0 11 9 10 1 25 20 20 25 4 23 10 5 23 21 10 15 5 11 8 22 25 4 17 2 2 21 10 10 21 8 22 5 2 2 5 13 10 24 21 25 4 9 10 8 11 19 10 25 5 4 9 18 21 2 5 13 15 5 11 8 23 5 17 2 20 21 19 5 20 21 10 24 21 25 4 20 21 14 11 9 25 4 23 3 5 20 11 2 17 8 17 8 25 10 24 3 21 10 25 19 10 5 20 21 10 21 8 3 25 4 21 10 24 21 22 25 4 17 2 2 21 10 10 21 8 17 22 10 21 8 9 5 2 12 25 4 23 10 24 21 3 5 20 11 2 17 8 2 25 4 21 17 8 19 5 3 18 25 4 17 10 25 5 4 17 4 20 13 5 8 1 25 4 23 18 17 19 1 13 17 8 20 15 5 11 19 17 4 25 20 21 4 10 25 22 15 10 24 21 25 4 12 21 8 9 21 10 5 15 5 11 8 6 11 18 2 25 19 1 21 15 13 24 25 19 24 19 5 25 4 19 25 20 21 4 10 17 2 2 15 25 9 10 24 21 2 21 10 10 21 8 10 5 15 5 11 8 19 5 20 21 14
 
@@ -61,7 +55,6 @@ Public key 𝐾 = 13457
 Modulus 𝑀 = 65537
 
 GCD(65537,13457)
-
 
 
 **3. Match the number you've calculated to the letter on the modified alphabet shifted by  17 to the right  in step 1 and  ooala you have your 4th letter to your codex!**
